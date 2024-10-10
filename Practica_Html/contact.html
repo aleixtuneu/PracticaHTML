@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Espècies en perill d'extinció</title>
+</head>
+<body>
+<header>
+    <h1>EPEPC</h1>
+    <nav>
+        <ul>
+            <li><a href="index.html">Inici</a></li>
+            <li><a href="list.html">Llistat</a></li>
+            <li><a href="contact.html">Contacta</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main> <!--
+       <h2>Contacta</h2>
+       <p>El teu nom * <input/></p>
+       <p>El teu correu electrònic * <input/></p>
+       <p>Títol * <input/></p>
+       <p>Missatge * <input/></p>
+       <p><button>Enviar Missatge</button></p> -->
+    <form action="/my-handling-form-page" method="post">
+        <div>
+            <label for="name">El teu nom * </label>
+            <input type="text" id="name" name="user_name">
+        </div>
+        <div>
+            <label for="mail">El teu correu electrònic * </label>
+            <input type="email" id="mail" name="user_mail">
+        </div>
+        <div>
+            <label for="yourtitle">Títol * </label>
+            <input type="text" id="yourtitle" name="usertitle">
+        </div>
+        <div>
+            <label for="msg">Missatge * </label>
+            <textarea id="msg" name="user_message"></textarea>
+        </div>
+        <div class="button">
+            <button type="submit">Enviar missatge</button>
+        </div>
+    </form>
+</main>
+
+
+<footer>
+    <h2>Llicència</h2>
+    <p>Pàgina web creada per Aleix Tuneu</p>
+    <p>Llicència <a href="">Creative Commons Reconeixement-NoComercial-CompartirIgual_3.0</a></p>
+    <img src="img/license.png" alt="Llicència">
+
+
+    <h2>Segueix-nos</h2>
+    <ul>
+        <li><a href="">Mastodon</a></li>
+        <li><a href="">Disapora</a></li>
+    </ul>
+</footer>
+
+</body>
+</html>
